@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -102,3 +103,6 @@ dist
 
 # TernJS port file
 .tern-port
+=======
+/node_modules
+>>>>>>> parent of da0f46f (소스코드 src 폴더로 분류)

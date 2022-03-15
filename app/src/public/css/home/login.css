@@ -31,17 +31,28 @@
   text-transform: uppercase;
   outline: 0;
   background: #4CAF50;
+<<<<<<< HEAD
   width: 80%;
   border: 0;
   margin: 0 auto;
   padding: 15px;
+=======
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  margin: 0 auto;
+>>>>>>> hii
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .form #button:hover,.form #button:active,.form #button:focus {
+=======
+.form button:hover,.form button:active,.form button:focus {
+>>>>>>> hii
   background: #43A047;
 }
 .form .message {
@@ -53,9 +64,15 @@
   color: #4CAF50;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .form .register-form {
   display: none;
 }
+=======
+/* .form .register-form {
+  display: none;
+} */
+>>>>>>> hii
 .container {
   position: relative;
   z-index: 1;
@@ -98,6 +115,10 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
+<<<<<<< HEAD
 }
 
 /* Copyright (c) 2021 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) */
+=======
+}
+>>>>>>> hii

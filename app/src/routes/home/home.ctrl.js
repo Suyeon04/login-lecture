@@ -1,5 +1,6 @@
 "use strict";
 
+<<<<<<< HEAD
 const logger = require("../../config/logger");
 const User = require("../../models/User");
 
@@ -49,11 +50,42 @@ const process = {
     return res.status(url.status).json(response);
   },
 };
+=======
+const User = require("../../models/User");
+
+const output ={
+  home : (req, res) => {
+    res.render("home/index");
+  },
+  login : (req, res) => {
+    res.render("home/login");
+  },
+  register: (req,res)=>{
+    res.render("home/register");
+  }
+  };
+
+const process={
+  login : (req, res)=>{
+    const user = new User(req.body);
+    const response = user.login();
+    return res.json(response);
+  },
+  register:(req, res)=>{
+    const user = new User(req.body);
+    const response = user.register();
+    return res.json(response);
+  }
+};
+
+
+>>>>>>> hii
 
 module.exports = {
   output,
   process,
 };
+<<<<<<< HEAD
 
 const log = (response, url) => {
   if (response.err) {
@@ -68,3 +100,5 @@ const log = (response, url) => {
     );
   }
 };
+=======
+>>>>>>> hii
